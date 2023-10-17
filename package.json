@@ -1,0 +1,21 @@
+{
+  "name": "youtubedownloadertelegrambot",
+  "version": "1.0.0",
+  "description": "Bot telegram download video to youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.1.1",
+    "node-telegram-bot-api": "^0.63.0",
+    "ytdl-core": "^4.11.5"
+  }
+}

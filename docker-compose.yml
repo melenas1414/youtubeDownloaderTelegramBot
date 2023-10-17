@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: telegram-bot-youtube-download
+    volumes:
+      - ./:/app/
+    depends_on:
+      - telegram-api
+    command: npm start
+  telegram-api:
+    image: ghcr.io/lukaszraczylo/tdlib-telegram-bot-api-docker/telegram-api-server:latest
+    container_name: telegram-api-youtube-download
+    env_file: .env 
