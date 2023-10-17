@@ -14,7 +14,7 @@ Before you begin, make sure you have the following installed:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/yourproject.git
+    git clone https://github.com/melenas1414/youtubeDownloaderTelegramBot.git
     ```
 
 2. In the project's root directory, create an env.example file with the following structure and adjust the values to your needs: 
@@ -42,7 +42,7 @@ This will start the bot in a Docker container.
 
 ## Contributions
 
-If you'd like to contribute or report issues, please open an [issue](https://github.com/yourusername/yourproject/issues) or submit a [pull request](https://github.com/yourusername/yourproject/pulls).
+If you'd like to contribute or report issues, please open an [issue](https://github.com/melenas1414/youtubeDownloaderTelegramBot/issues) or submit a [pull request](https://github.com/melenas1414/youtubeDownloaderTelegramBot/pulls).
 
 ## License
 
