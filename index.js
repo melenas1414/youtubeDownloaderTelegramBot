@@ -149,11 +149,8 @@ bot.on('message', async (msg) => {
 
         let format = info.formats.find(f => f.itag == itag);
 
-        let folder = `download/${Date.now()}/`;
+        let folder = `/tmp/${Date.now()}/`;
         // create folders
-        if (!fs.existsSync('download')) {
-            fs.mkdirSync('download');
-        }
         if (!fs.existsSync(folder)) {
             fs.mkdirSync(folder);
         }
@@ -180,5 +177,3 @@ bot.on('message', async (msg) => {
 
     });
 });
-
-  
