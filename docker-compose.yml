@@ -4,7 +4,8 @@ services:
     build: .
     container_name: telegram-bot-youtube-download
     volumes:
-      - ./:/app/
+      - .:/app/
+      - /app/node_modules
     depends_on:
       - telegram-api
     command: npm start
